@@ -1,1 +1,57 @@
-.
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Courier New', 
+    Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.2);
+    text-align: center;
+    border: 1px solid #333;
+}
+
+h1 {
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+button {
+    background-color: #00ff00;
+    color: #121212;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-weight: bold;
+}
+
+button:hover:not(:disabled) {
+    background-color: #00cc00;
+    box-shadow: 0 0 15px #00ff00;
+}
+
+button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+.status-disconnected {
+    color: #ff4136;
+}
+
+.status-connected {
+    color: #00ff00;
+}
+
